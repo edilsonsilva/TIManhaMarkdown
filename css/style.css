@@ -5,6 +5,8 @@
 }
 body {
   background-image: url("../img/foto4.jpg");
+  background-position-y: -300px;
+  transition: ease 2s;
 }
 #container {
   width: 80vw;
@@ -12,4 +14,33 @@ body {
   background-color: white;
   margin-left: auto;
   margin-right: auto;
+}
+header {
+  background-color: white;
+  text-align: center;
+  height: 200px;
+  border-bottom: 1px solid darkred;
+}
+header h1 {
+  padding-top: 100px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+nav {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  font-family: arial;
+  transition: ease 0.5s;
+}
+a:hover {
+  padding-left: 5px;
+}
+main {
+  font-family: arial;
+  font-size: 12pt;
+  line-height: 35px;
 }
